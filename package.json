@@ -4,6 +4,7 @@
   "description": "Convert any string (even reserved words) to a valid javascript identifier.",
   "main": "index.js",
   "scripts": {
+    "start": "onchange *.js -i -- npm test",
     "test": "node tests.js"
   },
   "repository": {
@@ -23,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/smallhelm/to-js-identifier/issues"
   },
-  "homepage": "https://github.com/smallhelm/to-js-identifier#readme"
+  "homepage": "https://github.com/smallhelm/to-js-identifier#readme",
+  "devDependencies": {
+    "onchange": "^2.5.0",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "reserved": "^0.1.2"
+  }
 }
