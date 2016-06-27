@@ -12,5 +12,9 @@ test('it', function(t){
 
   t.equals(toId('with spaces'), 'with$32$spaces');
 
+  t.equals(toId('$'), '$36$');
+  t.equals(toId(' '), '$32$');
+  t.equals(toId('$32$'), '$36$32$36$');
+
   t.end();
 });
