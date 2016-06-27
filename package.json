@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/smallhelm/to-js-identifier#readme",
   "devDependencies": {
+    "gent": "^0.6.2",
     "onchange": "^2.5.0",
     "tape": "^4.6.0"
   },
