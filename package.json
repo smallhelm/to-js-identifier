@@ -1,0 +1,27 @@
+{
+  "name": "to-js-identifier",
+  "version": "0.0.0",
+  "description": "Convert any string (even reserved words) to a valid javascript identifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/to-js-identifier.git"
+  },
+  "keywords": [
+    "javascript",
+    "identifier",
+    "compiler",
+    "language",
+    "ECMAScript",
+    "words"
+  ],
+  "author": "farskipper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhelm/to-js-identifier/issues"
+  },
+  "homepage": "https://github.com/smallhelm/to-js-identifier#readme"
+}
