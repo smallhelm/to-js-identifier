@@ -1,6 +1,6 @@
 {
   "name": "to-js-identifier",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert any string (even reserved words) to a valid javascript identifier.",
   "main": "index.js",
   "scripts": {
